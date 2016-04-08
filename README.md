@@ -17,4 +17,4 @@ Two relevant library dependencies for `kafka.so`:
 - `libc.so.6`
 - `libssl.so.1.0.2`
  
-##### Important: This repository used Git Large File Storage (LFS). To use that repository in a meaningful way, the Git-LFS extension has to be installed. For instructions see the [Git-LFS website](https://git-lfs.github.com/).
+##### Important: This repository uses Git Large File Storage (LFS). To use that repository in a meaningful way, the Git-LFS extension has to be installed. For instructions see the [Git-LFS website](https://git-lfs.github.com/).
