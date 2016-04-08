@@ -9,7 +9,8 @@ These are binary artifacts for the following shared libraries to use the [Kafka]
 These artifacts are build for (and on):
 - Ubuntu Linux 14.04.4 LTS (trusty),
 - CPU architecture: amd64,
-- PHP 5.6 runtime.
+- PHP 5.6 runtime based on [`ppa:ondrej/php5-5.6`](https://launchpad.net/~ondrej/+archive/ubuntu/php5-5.6).
+ - **Note: Without using the custom PPA, the shared library cannot be used by the PHP runtime and PHP _will break_ beacause of that!**
 
 
 Two relevant library dependencies for `kafka.so`:
