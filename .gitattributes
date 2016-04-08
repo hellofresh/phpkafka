@@ -1,0 +1,2 @@
+kafka.so filter=lfs diff=lfs merge=lfs -text
+librdkafka.so.1 filter=lfs diff=lfs merge=lfs -text
