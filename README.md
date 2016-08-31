@@ -3,13 +3,14 @@ phpkafka Binary Artifacts
 
 These are binary artifacts for the following shared libraries to use the [Kafka](http://kafka.apache.org/) message broker from PHP.
 
-- [librdkafka](https://github.com/edenhill/librdkafka/) C driver (commit id [a7424f8](https://github.com/edenhill/librdkafka/commit/a7424f8a249b9f0866c34c95b5c6f9c8d67d5d30))
-- [phpkafka](https://github.com/EVODelavega/phpkafka) PHP extension based on `librdkafka` (commit id [8287630](https://github.com/EVODelavega/phpkafka/commit/828763013e858a2bada6c403861e27aced16d003)).
+- [librdkafka](https://github.com/edenhill/librdkafka/) C driver (commit id [4822822](https://github.com/edenhill/librdkafka/commit/48228229487563d83ae96021f7121dd75cfbe2c8))
+- [php-rdkafka](https://github.com/arnaud-lb/php-rdkafka) PHP extension based on `librdkafka` (commit id [4e6a074](https://github.com/arnaud-lb/php-rdkafka/commit/4e6a07438bf1664f995c76ad74800d57100e525d)).
 
 These artifacts are build for (and on):
+- PHP7 **only**! If you need PHP5 version, check [v0.1](https://github.com/hellofresh/phpkafka/tree/v0.1) tag.
 - Ubuntu Linux 14.04.4 LTS (trusty),
 - CPU architecture: amd64,
-- PHP 5.6 runtime based on [`ppa:ondrej/php5-5.6`](https://launchpad.net/~ondrej/+archive/ubuntu/php5-5.6).
+- PHP 5.6 runtime based on [`ppa:ondrej/php`](https://launchpad.net/~ondrej/+archive/ubuntu/php).
  - **Note: Without using the custom PPA, the shared library cannot be used by the PHP runtime and PHP _will break_ beacause of that!**
 
 
