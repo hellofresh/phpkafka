@@ -6,6 +6,7 @@ WORKDIR /tmp
 
 ARG php_version
 ENV php_version=${php_version}
+ENV DEBIAN_FRONTEND=noninteractive
 
 # Add some basic essential packages
 RUN apt-get -qq -y update && \
