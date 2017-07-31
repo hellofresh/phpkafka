@@ -2,7 +2,7 @@
 
 docker rm phpkafka
 
-docker build -t phpkafka . --build-arg php_version=5.6
+docker build -t phpkafka . --build-arg php_version=7.0
 docker run --name phpkafka phpkafka
 
 CONTAINER_ID=$(docker ps -aqf "name=phpkafka")
