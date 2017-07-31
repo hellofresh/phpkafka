@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:trusty
 LABEL vendor="HelloFresh"
 MAINTAINER "Kieran Patel <me@kieranajp.co.uk>"
 
